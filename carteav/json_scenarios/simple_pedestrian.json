@@ -1,0 +1,95 @@
+{
+    "version": "0.01",
+    "vseMetadata": {
+        "cameraSettings": {
+            "position": {
+                "x": 7.03275680541992,
+                "y": 20,
+                "z": -67.5201950073242
+            },
+            "rotation": {
+                "x": 90,
+                "y": 4.80000305175781,
+                "z": 0
+            }
+        }
+    },
+    "map": {
+        "id": "ba9a8458-6d39-45d6-b239-33ae31f32dc1",
+        "name": "MyMap",
+        "parameterType": "map"
+    },
+    "agents": [{
+            "uid": "b0689f97-74dc-4d35-9e8a-56adc5b63929",
+            "variant": "Howard",
+            "type": 3,
+            "parameterType": "",
+            "transform": {
+                "position": {
+                    "x": -5.61085796356201,
+                    "y": 0,
+                    "z": -58.9528884887695
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "waypoints": [{
+                    "ordinalNumber": 0,
+                    "position": {
+                        "x": 6.8074254989624,
+                        "y": 0,
+                        "z": -59.1338958740234
+                    },
+                    "angle": {
+                        "x": 359.490478515625,
+                        "y": 237.092102050781,
+                        "z": 2.66814801364035E-08
+                    },
+                    "waitTime": 0,
+                    "speed": 6,
+                    "trigger": {
+                        "effectors": []
+                    }
+                }, {
+                    "ordinalNumber": 1,
+                    "position": {
+                        "x": -7.35282802581787,
+                        "y": 0.150000005960464,
+                        "z": -68.2973403930664
+                    },
+                    "angle": {
+                        "x": 0.00149678450543433,
+                        "y": 93.1047439575195,
+                        "z": -1.04220417018741E-10
+                    },
+                    "waitTime": 0,
+                    "speed": 6,
+                    "trigger": {
+                        "effectors": []
+                    }
+                }, {
+                    "ordinalNumber": 2,
+                    "position": {
+                        "x": 6.50077152252197,
+                        "y": 0.149637565016747,
+                        "z": -69.0487747192383
+                    },
+                    "angle": {
+                        "x": 0.00149678450543433,
+                        "y": 93.1047439575195,
+                        "z": -1.04220417018741E-10
+                    },
+                    "waitTime": 0,
+                    "speed": 6,
+                    "trigger": {
+                        "effectors": []
+                    }
+                }
+            ]
+        }
+    ],
+    "controllables": []
+}
