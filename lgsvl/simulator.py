@@ -166,6 +166,20 @@ class Simulator:
         agent.name = name
         self.agents[uid] = agent
         return agent
+    
+    @accepts(list)
+    def add_obstacles_map(self, obstacles_map):
+        obstacles = {
+            "obstacles_map":{
+                "points":[    
+                    {
+                        "point": wp.to_json(),
+                    }
+                    for wp in obstacles_map
+                ]
+            }     
+        }    
+        uid = self.remote.command("simulator/add_obstacles_map", obstacles)
 
     @accepts(Agent)
     def remove_agent(self, agent):
