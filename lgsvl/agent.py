@@ -244,8 +244,8 @@ class NpcVehicle(Vehicle):
     def __init__(self, uid, simulator):
         super().__init__(uid, simulator)
 
-    @accepts(Iterable, bool, str)
-    def follow(self, waypoints, loop=False, waypoints_path_type="Linear"):
+    @accepts(Iterable, bool, str,bool)
+    def follow(self, waypoints, loop=False, waypoints_path_type="Linear",sensors_active=True):
         """Tells the NPC to follow the waypoints
 
         When an NPC reaches a waypoint, it will:
@@ -315,6 +315,7 @@ class NpcVehicle(Vehicle):
                 ],
                 "waypoints_path_type": waypoints_path_type,
                 "loop": loop,
+                "sensors_active":sensors_active
             },
         )
 

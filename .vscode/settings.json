@@ -3,5 +3,10 @@
         "/home/docker/git_repos/carteav_sw/carteav_infra/install/lib/python3.8/site-packages",
         "/home/docker/git_repos/carteav_sw/carteav_dev/install/lib/python3.8/site-packages",
         "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/docker/git_repos/carteav_sw/carteav_infra/install/lib/python3.8/site-packages",
+        "/home/docker/git_repos/carteav_sw/carteav_dev/install/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
     ]
 }
